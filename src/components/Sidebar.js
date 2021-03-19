@@ -264,7 +264,7 @@ const Sidebar = () => {
           </a>
         </li>
         {/* <!-- Sidebar Message --> */}
-        <div style={{ marginTop: '30px' }}>
+        <div style={{ marginTop: '350px' }}>
           <Profile />
         </div>
       </ul>

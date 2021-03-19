@@ -5,12 +5,12 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import BarGraph from './BarGraph';
 
-const RightSidebar = () => {
+const Row0 = () => {
   return (
     <>
       <div className="col-xl-9 col-lg-7">
         <div className="card shadow mb-4">
-          {/* <!-- Card Body --> */}
+          {/* <!--Row 0 --> */}
           <div className="card-body">
             <div className="chart-area">
               <BarGraph />
@@ -19,10 +19,20 @@ const RightSidebar = () => {
         </div>
       </div>
 
-      {/* <!-- Pie Chart --> */}
-      <div className="col-xl-3 col-lg-5">
+      {/* <!-- Right-Sidebar --> */}
+      <div
+        className="col-xl-3 col-lg-5"
+        style={{
+          backgroundColor: 'white',
+          height: '560px',
+          padding: '25px',
+          borderRadius: '10px',
+          boxShadow: '4px 4px whitesmoke',
+        }}
+      >
         <div>
-          <Card>
+          {/* <!-- Right-Sidebar-cards --> */}
+          <Card style={{ backgroundColor: 'rgb(233, 235, 245)' }}>
             <CardActionArea>
               <svg
                 id="b7342f9c-8658-4ac8-9cce-2636d2f50163"
@@ -31,7 +41,9 @@ const RightSidebar = () => {
                 width="300"
                 height="120"
                 viewBox="0 0 779.13499 550.24072"
-                style={{ paddingTop: '10px' }}
+                style={{
+                  paddingTop: '10px',
+                }}
               >
                 <path
                   d="M262.71619,725.12036l-.95117-1.75879c12.75342-6.89746,28.62573-15.481,36.916-29.56738,8.17237-13.88623,8.35572-32.74268.47852-49.21094-6.70361-14.01562-19.01782-26.57226-35.61108-36.313-3.273-1.92138-6.70874-3.74218-10.0315-5.50341-8.03149-4.25635-16.33642-8.65821-23.18432-14.90284-9.43165-8.60107-16.56788-23.03466-11.249-35.89111a23.85566,23.85566,0,0,1,20.67749-14.46728l.1128,1.99707a21.8606,21.8606,0,0,0-18.94776,13.248c-4.94263,11.94727,1.83862,25.50489,10.75415,33.63574,6.66065,6.07374,14.85181,10.415,22.7732,14.61329,3.34155,1.771,6.79711,3.60253,10.10766,5.54589,16.93848,9.94336,29.52637,22.79786,36.40259,37.17432,8.1604,17.06055,7.94629,36.63672-.55908,51.08887C291.83191,709.37476,275.68811,718.10571,262.71619,725.12036Z"
@@ -259,10 +271,10 @@ const RightSidebar = () => {
             </CardActionArea>
           </Card>
         </div>
-        <br></br>
-        {/* <!-- Pie Chart --> */}
+        {/* <br></br> */}
+        {/* <!-- Right-Sidebar-cards --> */}
         <div style={{ marginTop: '20px' }}>
-          <Card>
+          <Card style={{ backgroundColor: 'rgb(233, 235, 245)' }}>
             <CardActionArea>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -556,4 +568,4 @@ const RightSidebar = () => {
   );
 };
 
-export default RightSidebar;
+export default Row0;

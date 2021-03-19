@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import RightSidebar from './RightSidebar';
+import Row0 from './Row0';
 import Row1 from './Row1';
 import Row2 from './Row2';
 
@@ -19,9 +19,10 @@ const MainContent = () => {
             {/* <!-- Content Row --> */}
 
             <div className="row" style={{ marginBottom: '10px' }}>
-              {/* <!-- Bar Graph --> */}
-              <RightSidebar />
+              {/* <!-- Content row having bar graph --> */}
+              <Row0 />
             </div>
+            {/* Row ended                 */}
 
             {/* <!-- Content Row --> */}
             <div className="row">

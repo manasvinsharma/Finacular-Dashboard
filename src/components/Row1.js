@@ -34,6 +34,7 @@ const Row1 = () => {
                         border: '2px solid blue',
                         width: '120px',
                         backgroundColor: '#b3b3ff',
+                        color: 'blue',
                       }}
                     ></input>
                   </div>
@@ -43,9 +44,14 @@ const Row1 = () => {
                 </div>
                 <div className="row" style={{ marginTop: '10px' }}>
                   <div className="col">
-                    <p style={{ color: 'black' }}>Last Updated</p>
+                    <p style={{ color: 'black', marginTop: '20px' }}>
+                      Last Updated-{' '}
+                    </p>
                   </div>
-                  <div className="col" style={{ marginLeft: '-25px' }}>
+                  <div
+                    className="col"
+                    style={{ marginLeft: '-25px', marginTop: '20px' }}
+                  >
                     <p>3rd Dec</p>
                   </div>
                 </div>
@@ -89,9 +95,14 @@ const Row1 = () => {
                 </div>
                 <div className="row" style={{ marginTop: '10px' }}>
                   <div className="col">
-                    <p style={{ color: 'black' }}>Inflation</p>
+                    <p style={{ color: 'black', marginTop: '20px' }}>
+                      Inflation-
+                    </p>
                   </div>
-                  <div className="col" style={{ marginLeft: '-25px' }}>
+                  <div
+                    className="col"
+                    style={{ marginLeft: '-25px', marginTop: '20px' }}
+                  >
                     <p>6%</p>
                   </div>
                 </div>

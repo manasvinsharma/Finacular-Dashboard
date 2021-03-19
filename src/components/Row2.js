@@ -15,7 +15,7 @@ const Row2 = () => {
                   <div className="text-xs font-weight-bold text-primary text-uppercase mb-1 col">
                     Major Investments
                   </div>
-                  <div style={{ marginTop: '-20px' }}>
+                  <div>
                     <IconButton aria-label="settings">
                       <MoreVertIcon />
                     </IconButton>
@@ -32,12 +32,12 @@ const Row2 = () => {
                   </div>
                 </div>
                 <div className="row my-2">
-                  <p style={{ color: 'black' }}>Optimised</p>
+                  <p style={{ color: 'black', marginTop: '20px' }}>Optimised</p>
                   <div
                     className="btn-group"
                     role="group"
                     aria-label="Basic radio toggle button group"
-                    style={{ marginLeft: '10px' }}
+                    style={{ marginLeft: '10px', marginTop: '20px' }}
                   >
                     <label
                       className="btn btn-outline-primary"
@@ -80,7 +80,7 @@ const Row2 = () => {
                   <div className="text-xs font-weight-bold text-primary text-uppercase mb-1 col">
                     Average expenses
                   </div>
-                  <div style={{ marginTop: '-20px' }}>
+                  <div>
                     <IconButton aria-label="settings">
                       <MoreVertIcon />
                     </IconButton>
@@ -98,9 +98,11 @@ const Row2 = () => {
                 </div>
                 <div className="row">
                   <div className="col">
-                    <p style={{ color: 'black' }}>3 months average</p>
+                    <p style={{ color: 'black', marginTop: '20px' }}>
+                      3 months average-
+                    </p>
                   </div>
-                  <div style={{ marginRight: '100px' }}>
+                  <div style={{ marginRight: '100px', marginTop: '20px' }}>
                     <p>$ 45,000</p>
                   </div>
                 </div>
