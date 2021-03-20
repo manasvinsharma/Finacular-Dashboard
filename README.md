@@ -1,4 +1,4 @@
-Live Site -  https://mms-kick.herokuapp.com/
+Live Site -  https://finacular-dashboard.herokuapp.com/
 
 # Getting Started with Create React App
 
